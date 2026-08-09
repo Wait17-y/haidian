@@ -1,4 +1,18 @@
-﻿# Jingzhang AI Innovation Belt Urban Design — A Spatial Carrier Solution for Global AI Innovation Infrastructure
+﻿---
+title: "Jingzhang AI Innovation Belt Urban Design — A Spatial Carrier Solution for Global AI Innovation Infrastructure"
+author_github: Wait17-y
+language: en
+license: CC-BY-4.0 (conceptual design); all spatial boundaries are provisional bbox, not official planning boundaries
+summary: >
+  This proposal uses The Jingzhang Loop three-layer model (Innovation/Spatial/Infrastructure Loop) as its core framework,
+  organizing one axis, three districts, and five nodes (Zhongzhiyuan · Origin Community · Dazhongsi) along the Jingzhang Heritage Park · Developer Corridor (8.7km).
+  The proposal is driven by Stage A-F six-phase analysis, with all 6 Validation Gates passed.
+  All spatial measures are expressed as conceptual recommendations, using provisional bbox boundaries.
+  Core scenarios focus on the spatial carrying capacity of AI innovation infrastructure, emphasizing citizens as AI innovation participants.
+bilingual_contract_version: '1'
+translation_file: proposal.md
+---
+# Jingzhang AI Innovation Belt Urban Design — A Spatial Carrier Solution for Global AI Innovation Infrastructure
 
 > **Submission ID**: Wait17-y / the-jingzhang-loop
 > **Submission Date**: 2026-08-08
