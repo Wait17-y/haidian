@@ -1,0 +1,131 @@
+{
+    "checks": [
+        {
+            "result": "pass",
+            "note_zh": "中文主方案已生成，18章完整",
+            "target": "proposal.md",
+            "check_id": "CHECK_PROPOSAL_EXISTS",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "英文译稿已由Kimi-k3完成 (proposal.en.md, 55.9 KB)",
+            "target": "proposal.en.md",
+            "check_id": "CHECK_PROPOSAL_EN_EXISTS",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "9个GeoJSON图层已就位，均已添加data_status/boundary_type/legal_status/usage metadata",
+            "target": "geojson_layers/ (9 files)",
+            "check_id": "CHECK_GEOJSON_COUNT",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "6张核心图全部生成(含06_design_logic_diagram.png)",
+            "target": "core_diagrams/ (5 files + 1 pending)",
+            "check_id": "CHECK_DRAWINGS_COUNT",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "10个结构化矩阵全部就位",
+            "target": "matrices/ (10 files)",
+            "check_id": "CHECK_MATRICES_COUNT",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "前置声明8项约束已就位",
+            "target": "proposal.md Pre-Disclaimer",
+            "check_id": "CHECK_DISCLAIMER_PRESENT",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "'概念建议'出现>100次；'概念基准'>20次；'参考方案'广泛使用",
+            "target": "proposal.md full text",
+            "check_id": "CHECK_CONCEPTUAL_WORDING",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "无FAR/高度/密度/绿地率/退线等控规数字被引用为确定值",
+            "target": "proposal.md + all matrices",
+            "check_id": "CHECK_NO_PLANNING_CLAIMS",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "所有指标表述为Innovation Capacity，均附legal_note",
+            "target": "metrics.json + proposal.md Ch11",
+            "check_id": "CHECK_METRICS_AS_CAPACITY",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "所有GeoJSON的boundary_type='provisional_bbox'",
+            "target": "all 9 GeoJSON files",
+            "check_id": "CHECK_BOUNDARY_TYPE",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "9条推导链覆盖B5 6缺口+围墙效应+控规约束+国际交流+市民参与+实施路径",
+            "target": "traceability.json",
+            "check_id": "CHECK_TRACEABILITY_COMPLETE",
+            "severity": "warning"
+        },
+        {
+            "result": "pass",
+            "note_zh": "6项假设含type/source/confidence/impact/mitigation",
+            "target": "assumptions.json",
+            "check_id": "CHECK_ASSUMPTIONS_DOCUMENTED",
+            "severity": "warning"
+        },
+        {
+            "result": "pass",
+            "note_zh": "Citizen AI Participation含伦理基础设施(知情同意/报酬/数据控制/退出/伦理委员会)",
+            "target": "proposal.md Ch8.3 + D4",
+            "check_id": "CHECK_CITIZEN_ETHICS",
+            "severity": "blocker"
+        },
+        {
+            "result": "pass",
+            "note_zh": "国际访客服务明确'不涉及签证政策'",
+            "target": "proposal.md Ch7.6 + E1.5",
+            "check_id": "CHECK_NO_VISA_CLAIMS",
+            "severity": "warning"
+        },
+        {
+            "result": "pass",
+            "note_zh": "24h Zone明确非所有空间全天开放——仅5类核心节点24h",
+            "target": "proposal.md Ch7.5 + E3.1",
+            "check_id": "CHECK_24H_NOT_ALL_SPACES",
+            "severity": "warning"
+        },
+        {
+            "result": "pass",
+            "note_zh": "Gate 3: 6/6 PASS",
+            "target": "Gate_3_Spatial_Validation.md",
+            "check_id": "CHECK_GATE3_PASS",
+            "severity": "info"
+        },
+        {
+            "result": "pass",
+            "note_zh": "Gate 4: 5/5 PASS",
+            "target": "Gate_4_Scenario_Validation.md",
+            "check_id": "CHECK_GATE4_PASS",
+            "severity": "info"
+        },
+        {
+            "result": "pass",
+            "note_zh": "提交清单已生成 (submission_manifest.md, 33-item inventory)",
+            "target": "submission_manifest.md",
+            "check_id": "CHECK_SUBMISSION_MANIFEST",
+            "severity": "warning"
+        }
+    ],
+    "schema_version": "0.1.0"
+}
