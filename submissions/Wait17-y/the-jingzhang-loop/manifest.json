@@ -21,47 +21,47 @@
                       "role":  "primary_narrative_en"
                   },
                   {
-                      "path":  "geojson_layers/site_boundary.geojson",
+                      "path":  "geometry/site_boundary.geojson",
                       "status":  "complete",
                       "role":  "geometry"
                   },
                   {
-                      "path":  "geojson_layers/key_areas.geojson",
+                      "path":  "geometry/key_areas.geojson",
                       "status":  "complete",
                       "role":  "geometry"
                   },
                   {
-                      "path":  "geojson_layers/land_use.geojson",
+                      "path":  "geometry/land_use.geojson",
                       "status":  "complete",
                       "role":  "geometry"
                   },
                   {
-                      "path":  "geojson_layers/buildings.geojson",
+                      "path":  "geometry/buildings.geojson",
                       "status":  "complete",
                       "role":  "geometry"
                   },
                   {
-                      "path":  "geojson_layers/roads.geojson",
+                      "path":  "geometry/roads.geojson",
                       "status":  "complete",
                       "role":  "geometry"
                   },
                   {
-                      "path":  "geojson_layers/green_space.geojson",
+                      "path":  "geometry/green_space.geojson",
                       "status":  "complete",
                       "role":  "geometry"
                   },
                   {
-                      "path":  "geojson_layers/public_space.geojson",
+                      "path":  "geometry/public_space.geojson",
                       "status":  "complete",
                       "role":  "geometry"
                   },
                   {
-                      "path":  "geojson_layers/constraints.geojson",
+                      "path":  "geometry/constraints.geojson",
                       "status":  "complete",
                       "role":  "geometry"
                   },
                   {
-                      "path":  "geojson_layers/phasing.geojson",
+                      "path":  "geometry/phasing.geojson",
                       "status":  "complete",
                       "role":  "geometry"
                   },
@@ -96,52 +96,52 @@
                       "role":  "drawing"
                   },
                   {
-                      "path":  "matrices/compliance_matrix.json",
+                      "path":  "compliance_matrix.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
                   {
-                      "path":  "matrices/standard_matrix.json",
+                      "path":  "standard_matrix.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
                   {
-                      "path":  "matrices/design_depth_matrix.json",
+                      "path":  "design_depth_matrix.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
                   {
-                      "path":  "matrices/metrics.json",
+                      "path":  "metrics.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
                   {
-                      "path":  "matrices/traceability.json",
+                      "path":  "traceability.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
                   {
-                      "path":  "matrices/assumptions.json",
+                      "path":  "assumptions.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
                   {
-                      "path":  "matrices/sources.json",
+                      "path":  "sources.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
                   {
-                      "path":  "matrices/self_check.json",
+                      "path":  "self_check.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
                   {
-                      "path":  "matrices/manifest.json",
+                      "path":  "manifest.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
                   {
-                      "path":  "matrices/agent.json",
+                      "path":  "agent.json",
                       "status":  "complete",
                       "role":  "matrix"
                   },
@@ -176,19 +176,19 @@
                       "role":  "manifest_human_readable"
                   },
                   {
-                      "path":  "matrices/risk_declaration.md",
+                      "path":  "risk_declaration.md",
                       "type":  "risk_management",
                       "status":  "final",
                       "version":  "1.0.0"
                   },
                   {
-                      "path":  "matrices/risk_declaration.json",
+                      "path":  "risk_declaration.json",
                       "type":  "risk_management",
                       "status":  "final",
                       "version":  "1.0.0"
                   },
                   {
-                      "path":  "matrices/preflight_report.json",
+                      "path":  "preflight_report.json",
                       "type":  "validation_report",
                       "status":  "final",
                       "version":  "1.0.0"

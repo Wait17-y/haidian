@@ -26,7 +26,7 @@
                    {
                        "result":  "pass",
                        "note_zh":  "9个GeoJSON图层已就位，均已添加data_status/boundary_type/legal_status/usage metadata",
-                       "target":  "geojson_layers/ (9 files)",
+                       "target":  "geometry/ (9 files)",
                        "check_id":  "CHECK_GEOJSON_COUNT",
                        "severity":  "blocker"
                    },
@@ -40,7 +40,7 @@
                    {
                        "result":  "pass",
                        "note_zh":  "10个结构化矩阵全部就位",
-                       "target":  "matrices/ (10 files)",
+                       "target":  " (10 files)",
                        "check_id":  "CHECK_MATRICES_COUNT",
                        "severity":  "blocker"
                    },
