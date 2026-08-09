@@ -1,11 +1,19 @@
+---
+title: 京张 AI 创新带城市设计 — 全球 AI 创新基础设施的空间承载方案
+author_github: Wait17-y
+language: zh-CN
+license: CC-BY-4.0 (conceptual design); all spatial boundaries are provisional bbox, not official planning boundaries
+summary: >
+  本方案以 The Jingzhang Loop 三层模型(Innovation/Spatial/Infrastructure Loop)为核心框架，
+  沿京张遗址公园·开发者走廊(8.7km)布局一轴三区五节点(众智园·原点社区·大钟寺)。
+  方案由 Stage A-F 六阶段分析驱动，全部 6 个 Validation Gates 通过。
+  所有空间措施表述为概念建议，使用 provisional bbox 边界。
+  核心场景聚焦 AI 创新基础设施的空间承载，强调公民作为 AI 创新参与者。
+bilingual_contract_version: '1'
+translation_file: proposal.en.md
+---
 ﻿# 京张 AI 创新带城市设计 — 全球 AI 创新基础设施的空间承载方案
 
-> **提交编号**: Wait17-y / the-jingzhang-loop
-> **提交日期**: 2026-08-08
-> **方案语言**: 中文主稿 (proposal.md) + 英文译稿 (proposal.en.md)
-> **约束声明**: 本方案为"百年京张AI创新带城市设计开源征集"的概念研究方案。所有空间边界为概念研究范围 (provisional bbox)，所有指标为 Innovation Capacity（创新能力表述），所有空间措施为"概念建议""参考方案""可供专业团队深化研究"。不替代正式规划，不构成政府审定结论。
-
----
 
 ## 0 Executive Summary
 
@@ -75,6 +83,58 @@ Phase 3: Global Network (12-20年) → 全球 AI 创新节点地位
 本文档按以下逻辑组织：**为什么（分析）→ 怎么做（战略）→ 做成什么样（空间）→ 有什么能力（指标）→ 怎么到达（实施）→ 怎么使用（场景）→ 怎么传播（品牌）→ 怎么验证（合规）**。
 
 ---
+
+## 设计依据与资料清单
+
+> 详见: Chapter 1 项目概述, Chapter 2 场地认知, Chapter 16 合规与约束声明, sources.json
+
+## 三层范围工作框架
+
+> 详见: Chapter 4 战略框架 — The Loop 三层模型 (Innovation/Spatial/Infrastructure Loop)
+
+## 统筹研究范围产业与未来城市研究
+
+> 详见: Chapter 3 分析诊断, Chapter 4 战略框架 — 全球对标与产业分析
+
+## 总体设计范围城市更新与控规深度城市设计
+
+> 详见: Chapter 5 总体空间结构 — 一轴三区五节点, geometry/ 目录全部 9 个图层
+
+## 重点区域详细设计
+
+> 详见: Chapter 6 众智园, Chapter 7 AI 原点社区, Chapter 8 大钟寺, geometry/key_areas.geojson
+
+## AI 创新生态、人才画像与 AI+ 场景
+
+> 详见: Chapter 13 场景叙事, Chapter 9 Innovation Flow Spatial Support System
+
+## 用地、建筑规模与拆改留方案
+
+> 详见: geometry/land_use.geojson, geometry/buildings.geojson, geometry/constraints.geojson
+
+## 交通、轨道、市政与公共服务设施
+
+> 详见: Chapter 5 总体空间结构, geometry/roads.geojson, geometry/public_space.geojson
+
+## 蓝绿空间、公共空间与城市风貌
+
+> 详见: geometry/green_space.geojson, geometry/public_space.geojson, assets/figures/
+
+## 更新项目清单、实施政策与分期计划
+
+> 详见: Chapter 12 实施路径 — Implementation Loop, geometry/phasing.geojson
+
+## 指标体系、面积复算与合规矩阵
+
+> 详见: Chapter 11 能力指标体系, metrics.json, compliance_matrix.json
+
+## 风险、版权与合规说明
+
+> 详见: Chapter 16 合规与约束声明, report/copyright_statement.md
+
+## 参考资料
+
+> 详见: sources.json, Chapter 17 附录
 
 ## 前置声明 (Pre-Disclaimer)
 
@@ -759,14 +819,14 @@ STEP 4: IMPLEMENTATION (实施路径)
 |------|------|------|
 | 中文主方案 | proposal.md | 本文件 |
 | 英文译稿 | proposal.en.md | 英文翻译版本 |
-| GeoJSON 图层 | geojson_layers/ (9 个文件) | 概念空间数据，全部标注 provisional_bbox |
-| 核心图 | core_diagrams/ (6 个 PNG) | 场地总览、用地结构、三区详图、交通蓝绿、指标证据、设计逻辑 |
-| 合规矩阵 | matrices/compliance_matrix.json | 23+ requirements 逐条对照 |
-| 追溯矩阵 | matrices/traceability.json | Source→Finding→Strategy→Design Decision→Drawing→Metric |
-| 假设清单 | matrices/assumptions.json | 全部假设的类型/来源/置信度/影响 |
-| 能力指标 | matrices/metrics.json | Innovation Capacity（非 Planning Requirement） |
-| 自检结果 | matrices/self_check.json | self_check_submission.py 输出 |
-| 提交清单 | matrices/manifest.json | 提交包完整文件索引 |
+| GeoJSON 图层 | geometry/ (9 个文件) | 概念空间数据，全部标注 provisional_bbox |
+| 核心图 | assets/figures/ (6 个 PNG) | 场地总览、用地结构、三区详图、交通蓝绿、指标证据、设计逻辑 |
+| 合规矩阵 | compliance_matrix.json | 23+ requirements 逐条对照 |
+| 追溯矩阵 | traceability.json | Source→Finding→Strategy→Design Decision→Drawing→Metric |
+| 假设清单 | assumptions.json | 全部假设的类型/来源/置信度/影响 |
+| 能力指标 | metrics.json | Innovation Capacity（非 Planning Requirement） |
+| 自检结果 | self_check.json | self_check_submission.py 输出 |
+| 提交清单 | manifest.json | 提交包完整文件索引 |
 | 离线阅读 | report/proposal.html | HTML 版 |
 | 展示页 | visual/index.html | 交互式展示 |
 | A3 方案册 | drawings/a3-booklet.pdf | 印刷版方案册 |
